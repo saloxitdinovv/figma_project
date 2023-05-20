@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <div class="container_1">
+        <div class="big-grid">
+            <main class="main">
+                <div class="container">
+
+                    <form class="form">
+
+                        <h1 class="new-post">
+                            new post
+                        </h1>
+                        <hr class="post-hr">
+
+                        <div class="form-info">
+                            <input type="text" class="input" placeholder="What’s on your mind?">
+
+                            <div class="buttons">
+                                <a href="" class="file">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19 9.43839L10.8446 17.4644C9.8455 18.4476 8.49043 19 7.07749 19C5.66455 19 4.30948 18.4476 3.31039 17.4644C2.31129 16.4811 1.75 15.1476 1.75 13.7571C1.75 12.3665 2.31129 11.033 3.31039 10.0497L11.4658 2.02375C12.1319 1.36825 13.0352 1 13.9772 1C14.9192 1 15.8225 1.36825 16.4886 2.02375C17.1547 2.67924 17.5289 3.56829 17.5289 4.4953C17.5289 5.42231 17.1547 6.31135 16.4886 6.96685L8.32432 14.9928C7.99129 15.3206 7.5396 15.5047 7.06862 15.5047C6.59764 15.5047 6.14595 15.3206 5.81291 14.9928C5.47988 14.6651 5.29279 14.2206 5.29279 13.7571C5.29279 13.2935 5.47988 12.849 5.81291 12.5213L13.3471 5.11537"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="pic">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g opacity="0.15">
+                                            <path
+                                                d="M19 3H5C3.89543 3 3 3.89543 3 5V19C3 20.1046 3.89543 21 5 21H19C20.1046 21 21 20.1046 21 19V5C21 3.89543 20.1046 3 19 3Z"
+                                                stroke="black" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path
+                                                d="M8.5 10C9.32843 10 10 9.32843 10 8.5C10 7.67157 9.32843 7 8.5 7C7.67157 7 7 7.67157 7 8.5C7 9.32843 7.67157 10 8.5 10Z"
+                                                stroke="black" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                            <path d="M21 15L16 10L5 21" stroke="black" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                <a href="#" class="file">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M17.038 1H2.962C1.87842 1 1 1.87842 1 2.962V17.038C1 18.1216 1.87842 19 2.962 19H17.038C18.1216 19 19 18.1216 19 17.038V2.962C19 1.87842 18.1216 1 17.038 1Z"
+                                            stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M5.50053 1V19" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M14.5 1V19" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M1 10.0004H19" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M1 5.50037H5.5" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M1 14.5H5.5" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M14.5 14.5H19" stroke="black" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                        <path d="M14.5 5.50037H19" stroke="black" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                </a>
+
+                                <button class="send">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_0_159)">
+                                            <path d="M14.6667 1.33337L7.33333 8.66671" stroke="white"
+                                                stroke-linecap="round" stroke-linejoin="round" />
+                                            <path
+                                                d="M14.6667 1.33337L10 14.6667L7.33333 8.66671L1.33333 6.00004L14.6667 1.33337Z"
+                                                stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_0_159">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <section class="selec">
+                        <section class="selector-box">
+                            <h1 class="sort">
+                                SORT BY:
+                            </h1>
+                            <select class="selector">
+                                <option class="option">
+                                    TRENDING
+                                </option>
+                                <option>
+                                    TRENDING
+                                </option>
+                                <option>
+                                    POPULAR
+                                </option>
+                            </select>
+                        </section>
+                    </section>
+
+                    <section class="news">
+                        <div class="head">
+                            <h1 class="new-info">
+                                Ted Bell, Annette Nguyen <div class="black"> and </div> Cody Hawkins <div class="black">
+                                    liked this</div>
+                            </h1>
+
+                            <button class="more">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <hr>
+
+                        <div class="main-info">
+                            <div class="nick">
+                                <div class="person">
+                                    <a href="#">
+                                        <img src="img/Phototheresa.png" alt="1">
+                                    </a>
+                                </div>
+                                <div class="bio">
+                                    <a href="#" class="name">Theresa Steward</a>
+                                    <h1 class="work">iOS developer</h1>
+                                </div>
+                            </div>
+
+                            <p class="inform">
+                                What did the Dursleys care if Harry lost his place on the House Quidditch team because
+                                he
+                                hadn't practiced all summer? What was it to the Dursleys if Harry went back to school
+                                without any of his homework done? The Dursleys were what wizards called Muggles (not a
+                                drop
+                                of magical blood in their veins).
+                            </p>
+
+                            <a href="#" class="read">
+                                Read more
+                            </a>
+                        </div>
+                        <hr>
+
+                        <div class="btns">
+                            <div class="likes">
+                                <button class="like">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_0_208)">
+                                            <path
+                                                d="M4.66665 14.6666H2.66665C2.31302 14.6666 1.97389 14.5262 1.72384 14.2761C1.47379 14.0261 1.33331 13.6869 1.33331 13.3333V8.66665C1.33331 8.31302 1.47379 7.97389 1.72384 7.72384C1.97389 7.47379 2.31302 7.33331 2.66665 7.33331H4.66665M9.33331 5.99998V3.33331C9.33331 2.80288 9.1226 2.29417 8.74753 1.9191C8.37245 1.54403 7.86375 1.33331 7.33331 1.33331L4.66665 7.33331V14.6666H12.1866C12.5082 14.6703 12.8202 14.5576 13.0653 14.3493C13.3103 14.1411 13.4718 13.8513 13.52 13.5333L14.44 7.53331C14.469 7.34222 14.4561 7.1471 14.4022 6.96148C14.3483 6.77586 14.2547 6.60418 14.1279 6.45832C14.0011 6.31247 13.844 6.19593 13.6677 6.11679C13.4914 6.03765 13.2999 5.99779 13.1066 5.99998H9.33331Z"
+                                                stroke="#0275B1" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_0_208">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    42
+                                </button>
+                                <button class="like">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 7.66669C14.0023 8.5466 13.7967 9.41461 13.4 10.2C12.9296 11.1412 12.2065 11.9328 11.3116 12.4862C10.4168 13.0396 9.3855 13.3329 8.33333 13.3334C7.45342 13.3356 6.58541 13.1301 5.8 12.7334L2 14L3.26667 10.2C2.86995 9.41461 2.66437 8.5466 2.66667 7.66669C2.66707 6.61452 2.96041 5.58325 3.51381 4.68839C4.06722 3.79352 4.85884 3.0704 5.8 2.60002C6.58541 2.20331 7.45342 1.99772 8.33333 2.00002H8.66667C10.0562 2.07668 11.3687 2.66319 12.3528 3.64726C13.3368 4.63132 13.9233 5.94379 14 7.33335V7.66669Z"
+                                            stroke="#0275B1" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    9
+                                </button>
+                            </div>
+
+                            <button class="share">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 5.33331C13.1046 5.33331 14 4.43788 14 3.33331C14 2.22874 13.1046 1.33331 12 1.33331C10.8954 1.33331 10 2.22874 10 3.33331C10 4.43788 10.8954 5.33331 12 5.33331Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M4 10C5.10457 10 6 9.10457 6 8C6 6.89543 5.10457 6 4 6C2.89543 6 2 6.89543 2 8C2 9.10457 2.89543 10 4 10Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M12 14.6667C13.1046 14.6667 14 13.7713 14 12.6667C14 11.5621 13.1046 10.6667 12 10.6667C10.8954 10.6667 10 11.5621 10 12.6667C10 13.7713 10.8954 14.6667 12 14.6667Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M5.72672 9.00677L10.28 11.6601" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M10.2734 4.34009L5.72672 6.99342" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                                share
+                            </button>
+                        </div>
+                    </section>
+                    <section class="news">
+                        <div class="head">
+                            <h1 class="new-info">
+                                Audrey Alexander <div class="black">comment this</div>
+                            </h1>
+
+                            <button class="more">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 13C12.5523 13 13 12.5523 13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M19 13C19.5523 13 20 12.5523 20 12C20 11.4477 19.5523 11 19 11C18.4477 11 18 11.4477 18 12C18 12.5523 18.4477 13 19 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M5 13C5.55228 13 6 12.5523 6 12C6 11.4477 5.55228 11 5 11C4.44772 11 4 11.4477 4 12C4 12.5523 4.44772 13 5 13Z"
+                                        stroke="#181818" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                        <hr>
+
+                        <div class="main-info">
+                            <div class="nick">
+                                <div class="person">
+                                    <a href="#">
+                                        <img src="img//Photokyle.png" alt="1">
+                                    </a>
+                                </div>
+                                <div class="bio">
+                                    <a href="#" class="name">Kyle Fisher</a>
+                                    <h1 class="work">Product designer at Commandor Corp.</h1>
+                                </div>
+                            </div>
+
+                            <p class="inform">
+                                How's your day going, guys?
+                            </p>
+                            <img class="prof-img" src="img/photo.png" alt="">
+
+                        </div>
+                        <hr>
+
+                        <div class="btns">
+                            <div class="likes">
+                                <button class="like">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_0_208)">
+                                            <path
+                                                d="M4.66665 14.6666H2.66665C2.31302 14.6666 1.97389 14.5262 1.72384 14.2761C1.47379 14.0261 1.33331 13.6869 1.33331 13.3333V8.66665C1.33331 8.31302 1.47379 7.97389 1.72384 7.72384C1.97389 7.47379 2.31302 7.33331 2.66665 7.33331H4.66665M9.33331 5.99998V3.33331C9.33331 2.80288 9.1226 2.29417 8.74753 1.9191C8.37245 1.54403 7.86375 1.33331 7.33331 1.33331L4.66665 7.33331V14.6666H12.1866C12.5082 14.6703 12.8202 14.5576 13.0653 14.3493C13.3103 14.1411 13.4718 13.8513 13.52 13.5333L14.44 7.53331C14.469 7.34222 14.4561 7.1471 14.4022 6.96148C14.3483 6.77586 14.2547 6.60418 14.1279 6.45832C14.0011 6.31247 13.844 6.19593 13.6677 6.11679C13.4914 6.03765 13.2999 5.99779 13.1066 5.99998H9.33331Z"
+                                                stroke="#0275B1" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_0_208">
+                                                <rect width="16" height="16" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>
+                                    42
+                                </button>
+                                <button class="like">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M14 7.66669C14.0023 8.5466 13.7967 9.41461 13.4 10.2C12.9296 11.1412 12.2065 11.9328 11.3116 12.4862C10.4168 13.0396 9.3855 13.3329 8.33333 13.3334C7.45342 13.3356 6.58541 13.1301 5.8 12.7334L2 14L3.26667 10.2C2.86995 9.41461 2.66437 8.5466 2.66667 7.66669C2.66707 6.61452 2.96041 5.58325 3.51381 4.68839C4.06722 3.79352 4.85884 3.0704 5.8 2.60002C6.58541 2.20331 7.45342 1.99772 8.33333 2.00002H8.66667C10.0562 2.07668 11.3687 2.66319 12.3528 3.64726C13.3368 4.63132 13.9233 5.94379 14 7.33335V7.66669Z"
+                                            stroke="#0275B1" stroke-width="2" stroke-linecap="round"
+                                            stroke-linejoin="round" />
+                                    </svg>
+
+                                    9
+                                </button>
+                            </div>
+
+                            <button class="share">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M12 5.33331C13.1046 5.33331 14 4.43788 14 3.33331C14 2.22874 13.1046 1.33331 12 1.33331C10.8954 1.33331 10 2.22874 10 3.33331C10 4.43788 10.8954 5.33331 12 5.33331Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M4 10C5.10457 10 6 9.10457 6 8C6 6.89543 5.10457 6 4 6C2.89543 6 2 6.89543 2 8C2 9.10457 2.89543 10 4 10Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path
+                                        d="M12 14.6667C13.1046 14.6667 14 13.7713 14 12.6667C14 11.5621 13.1046 10.6667 12 10.6667C10.8954 10.6667 10 11.5621 10 12.6667C10 13.7713 10.8954 14.6667 12 14.6667Z"
+                                        fill="#0275B1" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M5.72672 9.00677L10.28 11.6601" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M10.2734 4.34009L5.72672 6.99342" stroke="#0275B1" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+
+                                share
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+            </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <aside class="aside">
+                <div class="container">
+
+
+                    <div class="profile">
+
+                        <div class="prof">
+                            <div class="avatar">
+                                <a href="#">
+                                    <img src="img/profile.png" alt="">
+                                </a>
+                            </div>
+                            <div class="status">
+                                <h1 class="nickname">
+                                    Dmitry Kargaev
+                                </h1>
+                                <div class="stat">
+                                    <svg width="12" height="12" viewBox="0 0 12 12" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M0.65901 0.65901C0 1.31802 0 2.37868 0 4.5V7.5C0 9.62132 0 10.682 0.65901 11.341C1.31802 12 2.37868 12 4.5 12H7.5C9.62132 12 10.682 12 11.341 11.341C12 10.682 12 9.62132 12 7.5V4.5C12 2.37868 12 1.31802 11.341 0.65901C10.682 0 9.62132 0 7.5 0H4.5C2.37868 0 1.31802 0 0.65901 0.65901ZM2.99508 3.75912C2.501 3.75912 2.1 3.35401 2.1 2.85456C2.1 2.3551 2.501 1.95 2.99508 1.95C3.48917 1.95 3.89016 2.3551 3.89016 2.85456C3.89016 3.35401 3.48968 3.75912 2.99508 3.75912ZM2.22787 10.05V4.40933H3.76229V10.05H2.22787ZM8.36557 10.05H9.9V6.58407C9.9 3.89039 7.0342 3.98833 6.31967 5.3144V4.40933H4.78525V10.05H6.31967V7.17634C6.31967 5.58003 8.36557 5.44927 8.36557 7.17634V10.05Z"
+                                            fill="#D8C281" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                        </div>
+                        <p class="prof-info">
+                            Freelance UX/UI designer, 80+ projects <br> in web design, mobile apps (iOS & android) and
+                            <br>
+                            creative projects. Open to offers.
+                        </p>
+                    </div>
+
+
+
+                    <section class="article">
+                        <button class="write">
+                            write new article
+                        </button>
+                    </section>
+
+                    <section class="groups">
+                        <div class="head_2">
+                            <h1 class="group">
+                                my groups
+                            </h1>
+                            <a href="#" class="edit">
+                                Edit list
+                            </a>
+                        </div>
+                        <hr>
+
+                        <div class="all">
+                            <div class="elem">
+                                <img src="img/Groupmoskow.jpg" alt="" class="type">
+                                <h1 class="group-info">
+                                    Moscow State
+                                    Linguistical
+                                    University
+                                </h1>
+                            </div>
+                            <div class="elem">
+                                <img src="img/Rectangle 2.2frilans.png" alt="">
+                                <h1 class="group-info">
+                                    Digital freelancers
+                                    group
+                                </h1>
+                            </div>
+                            <div class="elem">
+                                <img src="img/Rectangle 2.2design.png" alt="">
+                                <h1 class="group-info">
+                                    Interaction
+                                    design
+                                    association
+                                </h1>
+                            </div>
+                        </div>
+
+                        <a href="#" class="read">
+                            Show all (8)
+                        </a>
+                    </section>
+
+                    <section class="hashtags">
+                        <h1 class="hashag">
+                            Followed hashtags
+                        </h1>
+                        <hr>
+
+                        <div class="all-hesh">
+                            <button class="hesh">
+                                #work
+                            </button>
+                            <button class="hesh">
+                                #business
+                            </button>
+                            <button class="hesh">
+                                #hr
+                            </button>
+                            <button class="hesh">
+                                #userinterface
+                            </button>
+                            <button class="hesh">
+                                #digital
+                            </button>
+                            <button class="hesh">
+                                #userexperience
+                            </button>
+                            <button class="hesh">
+                                #ux
+                            </button>
+                            <button class="hesh">
+                                #ui
+                            </button>
+                            <button class="hesh">
+                                #freelance
+                            </button>
+                        </div>
+                    </section>
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+</body>
+
+</html>

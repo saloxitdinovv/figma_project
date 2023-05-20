@@ -1,0 +1,67 @@
+@media (max-width: 1200px) {}
+
+/* применяем стили когда экран меньше чем 992px */
+@media (max-width: 992px) {}
+
+
+/* применяем стили когда экран меньше чем 768px */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
+    .aside {
+        display: none;
+    }
+    .big-grid {
+        grid-template-columns: auto;
+    }
+    .prof-img {
+        max-width: 100%;
+    }
+    .news {
+        max-width: 550px;
+    }
+    .form {
+        max-width: 550px;
+    }
+    .selec {
+        justify-content: center;
+    }
+    .input {
+        font-size: 14px;
+    }
+    .buttons {
+        gap: 30px;
+        grid-column: 1;
+    }
+    .share {
+        padding: 18px 10px;
+    }
+    .like {
+        padding: 18px 10px;
+    }
+    .new-info {
+        flex-wrap: wrap;
+    }
+    .form-info {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* применяем стили когда экран меньше чем 576px */
+@media (max-width: 576px) {
+    .big-grid {
+        grid-template-columns: 1;
+    }
+    .prof-img {
+        max-width: 100%;
+    }
+    .news {
+        max-width: 350px;
+    }
+    .form {
+        max-width: 350px;
+    }
+}
